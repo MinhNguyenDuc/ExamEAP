@@ -1,0 +1,14 @@
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\bin\Debug\netcoreapp2.2\Exam.deps.json
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\bin\Debug\netcoreapp2.2\Exam.runtimeconfig.json
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\bin\Debug\netcoreapp2.2\Exam.runtimeconfig.dev.json
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\bin\Debug\netcoreapp2.2\Exam.dll
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\obj\Debug\netcoreapp2.2\Exam.csprojAssemblyReference.cache
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\obj\Debug\netcoreapp2.2\Exam.csproj.CoreCompileInputs.cache
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\obj\Debug\netcoreapp2.2\Exam.RazorAssemblyInfo.cache
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\obj\Debug\netcoreapp2.2\Exam.RazorAssemblyInfo.cs
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\obj\Debug\netcoreapp2.2\Exam.AssemblyInfoInputs.cache
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\obj\Debug\netcoreapp2.2\Exam.AssemblyInfo.cs
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\obj\Debug\netcoreapp2.2\Exam.RazorTargetAssemblyInfo.cache
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\bin\Debug\netcoreapp2.2\Exam.pdb
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\obj\Debug\netcoreapp2.2\Exam.dll
+F:\Project\C#\Dot Net\Exam3\Q1\Exam\Exam\obj\Debug\netcoreapp2.2\Exam.pdb

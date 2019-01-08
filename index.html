@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+        <form class="form-group">
+                <label>Amount</label>
+                <input type="number" name="Amount" value="" id="input">
+                <select id="select">
+                    <option></option>
+                </select>
+                <button type="button" id="btnSubmit" value="Change">Change</button>
+            </form>
+            <p id="changed"></p>VND
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript">
+	$(document).ready(function(){
+		$.ajax({
+        method: 'GET',
+        url: 'https://localhost:44316/api/Currencies',
+        headers: {
+            'content-type': 'application/json'
+        },
+        success: function(data){
+        	console.log(data);
+        	htmlContent = "";
+        	for (var i = 0; i < data.length; i++) {
+				htmlContent += '<option value="' + data[i].ratio + '" class="opt">' + data[i].id + '</option>';
+        	}
+        	$("#select").html(htmlContent);
+        },
+        error: function(){
+
+        }
+	})
+	});
+	$("#btnSubmit").click(function(){
+		$('#changed').text($('.opt:selected').val() * $('#input').val());
+	});
+    </script>    
+  </body>
+</html>
+
+
+
